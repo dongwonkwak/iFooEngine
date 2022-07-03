@@ -2,13 +2,11 @@
 
 #include "common.h"
 
-
 namespace foo
 {
-	class FOODLLTYPE Server
+	class FOODLLTYPE Options
 	{
 	public:
-		Server();
-		void Start();
+		Options();
 	};
 }

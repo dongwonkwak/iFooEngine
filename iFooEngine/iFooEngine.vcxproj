@@ -135,11 +135,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="fooapi.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="Options.h" />
+    <ClInclude Include="Receiver.h" />
+    <ClInclude Include="Sender.h" />
     <ClInclude Include="Server.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="fooapi.cpp" />
+    <ClCompile Include="Options.cpp" />
     <ClCompile Include="Server.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
