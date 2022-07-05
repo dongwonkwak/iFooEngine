@@ -1,8 +1,8 @@
-#include "Options.h"
+#include "options.h"
 
 namespace foo
 {
-	Options::Options()
+	options::options()
 	{
 
 	}

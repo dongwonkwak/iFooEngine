@@ -18,7 +18,7 @@
     <ClInclude Include="Server.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Options.h">
+    <ClInclude Include="options.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Sender.h">
@@ -30,12 +30,18 @@
     <ClInclude Include="common.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="SyncWaitTask.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="async_event.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Server.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Options.cpp">
+    <ClCompile Include="options.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

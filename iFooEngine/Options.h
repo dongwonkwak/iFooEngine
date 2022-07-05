@@ -4,9 +4,9 @@
 
 namespace foo
 {
-	class FOODLLTYPE Options
+	class FOODLLTYPE options
 	{
 	public:
-		Options();
+		options();
 	};
 }
