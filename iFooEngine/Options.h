@@ -1,5 +1,7 @@
 #pragma once
 
+#include <string>
+
 #include "common.h"
 
 namespace foo
@@ -8,5 +10,6 @@ namespace foo
 	{
 	public:
 		options();
+		~options() = default;
 	};
 }

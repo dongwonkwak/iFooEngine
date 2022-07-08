@@ -1,14 +1,15 @@
 #pragma once
 
-#include "common.h"
 
+#include "common.h"
+#include "options.h"
 
 namespace foo
 {
 	class FOODLLTYPE Server
 	{
 	public:
-		Server();
+		explicit Server(options& opt);
 		void Start();
 	};
 }

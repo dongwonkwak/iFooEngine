@@ -2,7 +2,7 @@
 
 namespace foo
 {
-	Server::Server()
+	Server::Server(options& opt)
 	{
 
 	}

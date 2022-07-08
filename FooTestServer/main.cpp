@@ -4,7 +4,6 @@
 
 int main(int argc, char* argv[])
 {
-	foo::Server server;
 
 
 	return 0;
