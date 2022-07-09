@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{8bb1bc5c-bb33-4b90-96ea-86d8ac1d307b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Server.h">
@@ -24,14 +27,26 @@
     <ClInclude Include="common.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="SyncWaitTask.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="async_event.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="pending.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ipv4_address.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ipv4_endpoint.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ipv6_address.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ipv6_endpoint.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ip_address.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ip_endpoint.h">
+      <Filter>net</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -40,6 +55,24 @@
     </ClCompile>
     <ClCompile Include="options.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ipv4_address.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ipv4_endpoint.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ipv6_address.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ipv6_endpoint.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ip_address.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ip_endpoint.cpp">
+      <Filter>net</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

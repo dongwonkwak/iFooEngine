@@ -139,14 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="async_event.h" />
     <ClInclude Include="common.h" />
+    <ClInclude Include="net\ipv4_address.h" />
+    <ClInclude Include="net\ipv4_endpoint.h" />
+    <ClInclude Include="net\ipv6_address.h" />
+    <ClInclude Include="net\ipv6_endpoint.h" />
+    <ClInclude Include="net\ip_address.h" />
+    <ClInclude Include="net\ip_endpoint.h" />
     <ClInclude Include="options.h" />
     <ClInclude Include="pending.h" />
     <ClInclude Include="Server.h" />
-    <ClInclude Include="SyncWaitTask.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="net\ipv4_address.cpp" />
+    <ClCompile Include="net\ipv4_endpoint.cpp" />
+    <ClCompile Include="net\ipv6_address.cpp" />
+    <ClCompile Include="net\ipv6_endpoint.cpp" />
+    <ClCompile Include="net\ip_address.cpp" />
+    <ClCompile Include="net\ip_endpoint.cpp" />
     <ClCompile Include="options.cpp" />
     <ClCompile Include="Server.cpp" />
   </ItemGroup>
